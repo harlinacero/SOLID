@@ -2,6 +2,9 @@
 
 namespace OpenClosed
 {
+    /// <summary>
+    /// Control tipo label
+    /// </summary>
     public class Label : ControlBase, IControlWeb
     {
         private readonly string _text;

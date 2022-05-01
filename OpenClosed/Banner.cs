@@ -3,6 +3,9 @@ using System.Collections.Generic;
 
 namespace OpenClosed
 {
+    /// <summary>
+    /// Control tipo banner
+    /// </summary>
     public class Banner : ControlBase, IControlWeb
     {
         private readonly IEnumerable<Image> _images;

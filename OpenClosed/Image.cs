@@ -2,6 +2,9 @@
 
 namespace OpenClosed
 {
+    /// <summary>
+    /// Control tipo imagen
+    /// </summary>
     public class Image : ControlBase, IControlWeb
     {
         private readonly string _url;
